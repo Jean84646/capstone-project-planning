@@ -1,5 +1,6 @@
 import React from 'react';
 import bg from './../img/bg1.jpg';
+import Header from './Header';
 
 import { Switch, Route } from 'react-router-dom';
 
