@@ -6,15 +6,20 @@
 
 ## Description
 
-
+##### Capstone project will follow the guide from ["Thinking in React"](https://reactjs.org/docs/thinking-in-react.html):
+1. Break the UI into a Component Hierarchy
+2. Build A Static Version in React
+3. Identify The Minimal (but complete) Representation Of UI State
+4. Identify Where Your State Should Live
+5. Add Inverse Data Flow
 
 ## Project Description
 
-##### Project Proposal
+#### Project Proposal
 
-##### Name of Student: Jean Jia
+#### Name of Student: Jean Jia
 
-##### Name of Project: Emergency Response Review
+#### Name of Project: Emergency Response Review
 
 ##### Project’s Purpose or Goal:
 This website contains study materials for nurses and healthcare providers who wish to refresh their knowledge on emergency response procedures.
