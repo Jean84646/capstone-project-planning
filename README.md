@@ -19,7 +19,7 @@
 
 ##### List the absolute minimum features the project requires to meet this purpose or goal:
 
-* CPR course will have step by step guide
+* Basic Life Support course will have step by step CPR guide
 * The review course will guide the user to determine the patient’s medical condition
 * Step by step instruction will change track base on the medical condition
 * User can choose to review different medical conditions
