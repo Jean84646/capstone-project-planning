@@ -9,9 +9,11 @@ function Header() {
           font-family: monospace;
           font-size: 5em;
           color: #FFF;
+          text-align: center;
         }
         a {
-          font-size: 16px;
+          font-size: 20px;
+          color: #FFF;
         }
         `}</style>
         <div>
