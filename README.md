@@ -1,6 +1,6 @@
 # Capstone Project Planning
 
-#### Building a React project base on the article "Thinking in React".
+#### The Capstone Project will be a website containing study materials for nurses and healthcare providers who wish to refresh their knowledge on emergency response procedures.
 
 #### By Jean Jia, 09/21/2018
 
@@ -9,26 +9,19 @@
 ##### Capstone project will follow the guide from ["Thinking in React"](https://reactjs.org/docs/thinking-in-react.html):
 1. Break the UI into a Component Hierarchy
 2. Build A Static Version in React
-3. Identify The Minimal (but complete) Representation Of UI State
+3. Identify The Minimal Representation Of UI State
 4. Identify Where Your State Should Live
 5. Add Inverse Data Flow
 
 ## Project Description
 
-#### Project Proposal
-
-#### Name of Student: Jean Jia
-
 #### Name of Project: Emergency Response Review
-
-##### Project’s Purpose or Goal:
-This website contains study materials for nurses and healthcare providers who wish to refresh their knowledge on emergency response procedures.
 
 ##### List the absolute minimum features the project requires to meet this purpose or goal:
 
 * CPR course will have step by step guide
-* The review course will help the user to determine the patient’s medical condition
-* Step by step instruction will change track base on the patient’s medical condition
+* The review course will guide the user to determine the patient’s medical condition
+* Step by step instruction will change track base on the medical condition
 * User can choose to review different medical conditions
 * Step by Step guide will be save in a database
 
