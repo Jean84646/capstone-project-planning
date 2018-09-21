@@ -1,6 +1,7 @@
 import React from 'react';
 import bg from './../img/bg1.jpg';
 import Header from './Header';
+import CategoryList from './CategoryList';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
 
@@ -26,7 +27,7 @@ class App extends React.Component {
       <div className="container">
         <Header/>
         <Switch>
-          <Route exact path='/' render={()=><BeerList />} />
+          <Route exact path='/' render={()=><CategoryList />} />
           <Route component={Error404} />
         </Switch>
       </div>
