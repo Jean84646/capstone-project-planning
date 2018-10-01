@@ -22,11 +22,21 @@ class App extends React.Component {
       {
         name: 'Advanced Cardiovascular Life Support (ACLS)',
         description: 'ACLS refers to a set of clinical interventions for the urgent treatment of cardiac arrest, stroke and other life-threatening medical emergencies, as well as the knowledge and skills to deploy those interventions.',
+        steps: [
+          'Step 1: ',
+          'Step 2: ',
+          'Step 3: '
+        ],
         id: 1
       },
       {
         name: 'pediatric advanced life support (PALS)',
         description: 'PALS is pediatric emergencies with a systematic approach to pediatric assessment, basic life support, PALS treatment algorithms, effective resuscitation, and team dynamics. The goal of the PALS Course is to improve the quality of care provided to seriously ill or injured children, resulting in improved outcomes.',
+        steps: [
+          'Step 1: ',
+          'Step 2: ',
+          'Step 3: '
+        ],
         id: 2
       }
     ]
