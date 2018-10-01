@@ -9,7 +9,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      masterKegList: [{}]
+      masterCourseList: [{}]
     };
   }
 
@@ -27,7 +27,7 @@ class App extends React.Component {
       <div className="container">
         <Header/>
         <Switch>
-          <Route exact path='/' render={()=><CategoryList />} />
+          <Route exact path='/courses' render={()=><CategoryList />} />
           <Route component={Error404} />
         </Switch>
       </div>
