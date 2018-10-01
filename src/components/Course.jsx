@@ -7,6 +7,9 @@ function Course(props){
       <h3>{props.name}</h3>
         <ul>
           <li>{props.description}</li>
+            <ul>
+              <li>{props.steps}</li>
+            </ul>
         </ul>
     </div>
   );
@@ -15,6 +18,7 @@ function Course(props){
 Course.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  steps: PropTypes.array.isRequired,
   id: PropTypes.string.isRequired
 };
 

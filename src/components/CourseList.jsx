@@ -8,6 +8,7 @@ function CourseList(props){
       {props.courseList.map((course) =>
         <Course name={course.name}
                 description={course.description}
+                steps= {course.steps}
                 id={course.id}
                 key={course.id} />)}
     </div>
