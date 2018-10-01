@@ -12,6 +12,11 @@ class App extends React.Component {
       masterCourseList: [{
         name: 'Basic Life Support (BLS)',
         description: 'BLS is a level of medical care which is used for victims of life-threatening illnesses or injuries until they can be given full medical care at a hospital. It can be provided by trained medical personnel, including emergency medical technicians, paramedics, and by qualified bystanders.',
+        steps: [
+          'Step 1: check pulse',
+          'Step 2: 30 chest compressions',
+          'Step 3: 2 breaths'
+        ],
         id: 0
       },
       {
