@@ -59,6 +59,9 @@ class App extends React.Component {
         <Header/>
         <Switch>
           <Route exact path='/' render={()=><CourseList courseList={this.state.masterCourseList}/>} />
+          <Route exact path='/BLS' component={CourseList} />
+          <Route exact path='/ACLS' component={CourseList} />
+          <Route exact path='/PALS' component={CourseList} />
           <Route component={Error404} />
         </Switch>
       </div>
