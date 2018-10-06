@@ -3,7 +3,7 @@ import bg from './../img/bg1.jpg';
 import Header from './Header';
 import CourseList from './CourseList';
 import Error404 from './Error404';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Link } from 'react-router-dom';
 
 class App extends React.Component {
   constructor(props) {
@@ -59,9 +59,9 @@ class App extends React.Component {
         <Header/>
         <Switch>
           <Route exact path='/' render={()=><CourseList courseList={this.state.masterCourseList}/>} />
-          <Route exact path='/BLS' component={CourseList} />
-          <Route exact path='/ACLS' component={CourseList} />
-          <Route exact path='/PALS' component={CourseList} />
+          <Route exact path='/BLS' component={() => <CourseList course={this.state.masterCourseList[0].name} />} />
+          <Route exact path='/ACLS' component={() => <CourseList course={this.state.masterCourseList[1].name} />} />
+          <Route exact path='/PALS' component={() => <CourseList course={this.state.masterCourseList[2].name} />} />
           <Route component={Error404} />
         </Switch>
       </div>
