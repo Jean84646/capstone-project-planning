@@ -8,7 +8,9 @@ function Course(props){
         <ul>
           <li>{props.description}</li>
             <ul>
-              <li>{props.steps}</li>
+            {props.steps.map((step) =>
+              <li>{step}</li>
+            )}
             </ul>
         </ul>
     </div>
