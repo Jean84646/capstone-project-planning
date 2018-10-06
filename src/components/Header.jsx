@@ -20,10 +20,7 @@ function Header() {
           <h1>Emergency Response Review</h1>
         </div>
         <div>
-          <Link to='/'>Home</Link> |
-          <Link to='/BLS'>BLS</Link> |
-          <Link to='/ACLS'>ACLS</Link> |
-          <Link to='/PALS'>PALS</Link>
+          <Link to='/'>Home</Link> | <Link to='/admin'>Admin</Link> |  <Link to='/bls'>BLS</Link> | <Link to='/acls'>ACLS</Link> | <Link to='/pals'>PALS</Link>
         </div>
     </div>
   );
